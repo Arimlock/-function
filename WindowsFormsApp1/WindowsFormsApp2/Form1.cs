@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1.Properties
+namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
@@ -26,7 +26,7 @@ namespace WindowsFormsApp1.Properties
         double D;
         double x1;
         double x2;
-        private void Read() 
+        private void Read()
         {
             A = readA.Text;
             B = readB.Text;
@@ -40,20 +40,20 @@ namespace WindowsFormsApp1.Properties
         {
             D = (b * b) - 4 * a * c;
             if (D < 0)
-            resault ="Нет корней.";
+                resault = "Нет корней.";
             else
             {
                 if (D == 0)
                 {
                     x1 = -b / (2 * a);
-                    resault = "Корень равен "+x1.ToString()+".";
+                    resault = "Корень равен " + x1.ToString() + ".";
                 }
                 else
                 {
                     D = Math.Sqrt(D);
                     x1 = (-b + D) / (2 * a);
                     x2 = (-b - D) / (2 * a);
-                    resault="Первый корень равен "+x1.ToString()+", второй корень равен "+x2.ToString()+".";
+                    resault = "Первый корень равен " + x1.ToString() + ", второй корень равен " + x2.ToString() + ".";
                 }
             }
         }
