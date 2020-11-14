@@ -24,8 +24,12 @@ namespace WindowsFormsApp1
         }
 
         private void button1_Click(object sender, EventArgs e)
-        { 
+        {
             //лыатыдпаыдпдои
+            //jnsdlnsldnvlsdknv
+            //nbsfkjnsfnlsnfljns
+            ////sjflsnlfvsljnv
+            ///////sflsflkjdfl
             string resault;
             double D;
             double x1;
