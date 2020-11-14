@@ -25,6 +25,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         { 
+            //лыатыдпаыдпдои
             string resault;
             double D;
             double x1;
