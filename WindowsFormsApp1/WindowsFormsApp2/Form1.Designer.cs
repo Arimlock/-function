@@ -66,18 +66,21 @@
             // 
             // count
             // 
-            this.count.Location = new System.Drawing.Point(280, 86);
+            this.count.BackColor = System.Drawing.Color.PaleGreen;
+            this.count.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.count.Location = new System.Drawing.Point(241, 86);
             this.count.Name = "count";
-            this.count.Size = new System.Drawing.Size(75, 69);
+            this.count.Size = new System.Drawing.Size(123, 69);
             this.count.TabIndex = 5;
             this.count.Text = "Рассчитать";
-            this.count.UseVisualStyleBackColor = true;
+            this.count.UseVisualStyleBackColor = false;
             this.count.Click += new System.EventHandler(this.count_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(376, 204);
             this.Controls.Add(this.readC);
             this.Controls.Add(this.readB);
