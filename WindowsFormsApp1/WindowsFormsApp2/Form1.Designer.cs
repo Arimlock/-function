@@ -80,8 +80,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
+            this.ClientSize = new System.Drawing.Size(968, 431);
+
             this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(376, 204);
+
             this.Controls.Add(this.readC);
             this.Controls.Add(this.readB);
             this.Controls.Add(this.readA);
